@@ -4,7 +4,7 @@ counter=0
    if(char != " ")
     counter+=1
    end
- 
+
  end
  puts counter
  end
