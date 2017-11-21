@@ -2,8 +2,9 @@ def turn_count(board)
 counter=0
   board.each do |char|
    if(char != " ")
-    puts  "#{counter+=1}"
+    counter+=1
    end
+ puts counter
  end
  end
 
