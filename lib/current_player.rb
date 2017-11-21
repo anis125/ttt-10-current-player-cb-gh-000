@@ -4,8 +4,9 @@ counter=0
    if(char != " ")
     counter+=1
    end
- puts counter
+ 
  end
+ puts counter
  end
 
 def current_player (board)
