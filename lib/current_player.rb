@@ -7,7 +7,7 @@ counter=0
   end
  puts counter
  end
- turn_count(board)
+ 
 
 def current_player (board)
   if(turn_count(board) % 2 == 0)
@@ -16,4 +16,4 @@ def current_player (board)
     puts"X"
   end
 end
-current_player(board)
+
